@@ -51,9 +51,10 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav a:hover, .nav a.selected {
   color: white
 }
+
 
 header {
   text-align: center;
@@ -70,12 +71,18 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(5deg) ;
 }
+
+div.sfondo1 img{
+  max-width: 100%;
+
+}
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -86,7 +93,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #ffffff;
 }
 .card {
   margin: 30px;
@@ -165,6 +172,14 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+/* Experience */
+.items {
+  display: block;
+    max-width: 250px;
+    margin: 0 auto 30px;
+    border: 1px solid #333;
 }
 
 /* Styles for larger screens */
