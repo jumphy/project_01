@@ -71,7 +71,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px dotted #ffffff;
+  border: 2px dotted #ffffff;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -117,15 +117,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
   color: white;
   padding: 5px 10px;
   margin: 2px;
-}
+  }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
-}
+.skills li img {width: 70px;}
+
+
 
 footer {
   width: 100%;
